@@ -13,8 +13,8 @@ Most of C++ Programming Industries uses OOP and any other methods.
 in this year, im plan to learn more about Classes, Structuers, Polymorphism, Pointers, Inheritences.
 
 ## Algorithm Problems
-To practice code or improve algorithm thinking, im solving problems from Leetcodes and any other programming quizs
-g
+To practice code or improve algorithm thinking, im solving problems from Leetcodes and any other programming problems
+
 ## Algorithm and Data Structurers
 2 Sources refered 
 - CS203 (UOITC), Fourth Edition Data Structures and Algorithm Analysis in C++

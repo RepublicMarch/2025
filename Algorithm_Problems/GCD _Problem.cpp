@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include <algorithm> // to use STL Lib __GCD() Function
+#include <algorithm>
 
 int GCD_Algorithm_EucDef(int a, int b) // O(1) 
 {
@@ -13,7 +13,7 @@ int GCD_Algorithm_EucDef(int a, int b) // O(1)
     return GCD_Algorithm_EucDef(b, a % b);
 }
 
-int GCD_Algorithm_Loop(int a, int b) // O(N log n) FASTEST + INTUITIVE 
+int GCD_Algorithm_Loop(int a, int b) // O(N log n) INTUITIVE 
 {
     while (b != 0)
     {
@@ -37,7 +37,7 @@ int GCD_Algorithm_Brute_Force(int a, int b) // O(N) Slow but Definition of GCD i
     return End_The_Loop;
 }
 
-int EucDef()
+void EucDef()
 {
     int x1 {};
     int x2 {};
@@ -54,7 +54,7 @@ int EucDef()
     std::cout << "GCD (" << x1 << "," << x2 << ") = " << GCD_Algorithm_EucDef(x1, x2) << std::endl;
 }
 
-int EucLoop()
+void EucLoop()
 {
     int x1 {};
     int x2 {};
@@ -71,7 +71,7 @@ int EucLoop()
     std::cout << "GCD (" << x1 << "," << x2 << ") = " << GCD_Algorithm_Loop(x1, x2) << std::endl;
 }
 
-int EucBrt()
+void EucBrt()
 {
     int x1 {};
     int x2 {};
@@ -97,7 +97,7 @@ int main()
 
     std::cin >> Answer;
 
-    if (Answer == "EufDef")
+    if (Answer == "EucDef")
     {
         EucDef();
     }
