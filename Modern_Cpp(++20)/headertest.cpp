@@ -1,0 +1,1 @@
+float Natural_Logarithm {2.1828182839};
